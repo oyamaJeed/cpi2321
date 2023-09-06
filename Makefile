@@ -1,8 +1,8 @@
 # TARGET NAME
-TARGET := kadai12s
+TARGET := kadai14s
 
 # OBJECT FILES
-OBJS := kadai12s.o clThread_12.o tcpip_12.o utils_12.o
+OBJS := kadai14s.o clThread_14.o tcpip_14.o utils_14.o
 
 # SOURCE FILES
 SRCS := $(OBJS:%.o=%.c)

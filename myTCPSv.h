@@ -27,6 +27,7 @@
 //*** clThread
 extern void *threadMain(void *thrArgs);					// Main Thread
 extern void clHandler(int clSock);							// Handle A Client Request
+extern void sendHtml(int clSock, char *uri);
 //*** tcpip
 extern int createTCPSvSock(unsigned short port);			// Create Socket
 extern int acceptTCPConn(int svSock);						// Accept Connection
